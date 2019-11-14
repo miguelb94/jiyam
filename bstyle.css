@@ -11,6 +11,8 @@ body .content{
     margin:100px auto ;
     background-color: cornsilk;
     border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px black;
+
 }
 body .content img{
     flex: 1 0 25%; /* explanation below */
