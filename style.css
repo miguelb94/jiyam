@@ -84,6 +84,7 @@ body .content .main .WHITE{
 }
 body .content .main a{
     display: block;
+    width: 100%;
 }
 body .content .main input{
     margin-left: 70px;
@@ -111,6 +112,8 @@ body .content .main .buscar a{
     text-decoration: none;
     font-size: 24px;
     color: black;
+    transition-duration:  250ms;
+
 }
 body .content .main .buscar:hover {
     background-color:lightpink;
@@ -118,6 +121,8 @@ body .content .main .buscar:hover {
 }
 body .content .main .buscar a:hover{
 color: white;
+font-size: 27px;
+
 }
 
 
