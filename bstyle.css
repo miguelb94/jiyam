@@ -34,6 +34,7 @@
 
 body {
   width: 100vw;
+  min-width: 1366px;
   height: 100vh;
   background: #ff00f9;
   background: -webkit-gradient(linear, left bottom, left top, from(#ff00f9), to(#ff9a00));
@@ -104,6 +105,4 @@ body .content .imgcont:hover img {
 body .content .imgcont:hover p {
   opacity: 100%;
 }
-
-/*flex: 1 0 25%;  explanation below */
 /*# sourceMappingURL=bstyle.css.map */
