@@ -71,8 +71,6 @@
 * body nav a .boxlogo svg {
   width: 65px;
   margin: 0px 7px;
-  -webkit-transform: translate(5px, -2px);
-          transform: translate(5px, -2px);
 }
 
 * body .container {
@@ -104,20 +102,16 @@
   width: -moz-fit-content;
   width: fit-content;
   max-width: 600px;
-  min-width: 200px;
+  min-width: 500px;
   margin: 50px auto;
   padding: 30px 30px;
   border-radius: 15px;
   background: white;
-  -webkit-box-shadow: 0px 0px 18px 6px #b6b6b6;
-  box-shadow: 0px 0px 18px 6px #cecece;
-  border: 0.5px solid black;
 }
 
 * body .container .data p {
   padding: 20px;
   font-family: Poppins;
-  font-size: 20px;
 }
 
 * body .container .data a {
