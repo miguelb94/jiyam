@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(../Fonts/Nunito/Nunito-Black.ttf);
+}
+@font-face{
+    font-family: 'Azonix';
+    src: url(../Fonts/Azonix/Azonix.otf);
+}
+@font-face{
+    font-family: 'Poppins';
+    src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: 'Wallpoet';
+    src: url(../Fonts/Wallpoet/Wallpoet-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+}
+body{
+    display: block; 
+    margin: 0;
+    padding: 0;
+    & .navbar{
+        display: flex;
+        width: 100%;
+        height: 150px;
+        background: #7B00FF;
+        background: -moz-linear-gradient(-45deg, #7B00FF 0%, #00497D 79%, #001FA6 100%);
+        background: -webkit-linear-gradient(-45deg, #7B00FF 0%, #00497D 79%, #001FA6 100%);
+        background: linear-gradient(135deg, #7B00FF 0%, #00497D 79%, #001FA6 100%);
+    }
+    & .boxlogo{
+        font-size: 95px;
+        font-family: 'Azonix', sans-serif;
+        border: 5px outset rgba(0,0,0,0.47);
+        border-radius: 40px 8px 40px 8px;
+        height: fit-content;
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        padding: 10px 20px;
+        
+    }    
+    & svg{
+        width: 65px;
+        left: auto;
+        top: auto;
+        transform: translate(10%,-5%);
+    }
+    & .container{
+        display: flex;
+        & .imagen{
+            display: flex;
+        }
+      /*  & .imagen{
+            width: 1920px;
+            height: 100vh;
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            background-image: url(../Images/fest2.jpg);
+            background-repeat: no-repeat;
+            opacity: 90%;
+        }*/
+    }
+    /*
+            margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        */
+}
