@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url(../Fonts/Nunito/Nunito-Black.ttf);
+}
+@font-face{
+    font-family: 'Azonix';
+    src: url(../Fonts/Azonix/Azonix.otf);
+}
+@font-face{
+    font-family: 'Poppins';
+    src: url(../Fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: 'Wallpoet';
+    src: url(../Fonts/Wallpoet/Wallpoet-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    & body{
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        & nav{            
+            display: flex;
+            height: 160px;
+            background: #7B00FF;
+            background: -moz-linear-gradient(-45deg, #7B00FF 0%, #00497D 79%, #001FA6 100%);
+            background: -webkit-linear-gradient(-45deg, #7B00FF 0%, #00497D 79%, #001FA6 100%);
+            background: linear-gradient(135deg, #7B00FF 0%, #00497D 79%, #001FA6 100%);
+            & a{
+                margin: auto;
+                width: fit-content;
+                height: fit-content;
+                text-decoration: none;
+                color: black;
+                & .boxlogo{
+                    padding: 10px 20px;
+                    display: flex;
+                    font-size: 95px;
+                    font-family: 'Azonix', sans-serif;
+                    border: 5px outset rgba(0,0,0,0.47);
+                    border-radius: 40px 8px 40px 8px;
+                    & svg{
+                        width: 65px;
+                        margin: 0px 7px;
+                        transform: translate(5px,-2px);
+                    }
+                }
+            }
+            & .side{
+                & .btn1{
+
+                }
+                & .btn2{
+
+                }
+                & .btn3{
+
+                }
+            }
+        }
+        & .container{
+            display: flex;
+            flex: 1;
+            background-image: url(../Images/fest2.jpg);
+            background-repeat: no-repeat;
+            height: 100%;
+            & .data{
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                width: fit-content;
+                max-width: 600px;
+                min-width: 200px;
+                margin: 50px auto;
+                padding: 30px 30px;
+                border-radius:15px;
+                background: white;
+                -webkit-box-shadow: 0px 0px 18px 6px rgb(182, 182, 182);
+                -moz-box-shadow: 0px 0px 18px 6px rgb(180, 180, 180);
+                box-shadow: 0px 0px 18px 6px rgb(206, 206, 206);
+                border: 0.5px solid black;
+                & p{
+                    padding: 20px;
+                    font-family: Poppins;
+                    font-size: 20px;
+                }                
+                & a{
+                    /*
+                    margin: 30px auto 10px auto;
+                    align-items: flex-end;
+                    bottom: 0;*/
+                    text-decoration: none;
+                    color: black;
+                    margin: 0 auto;
+                    padding: 0 20px;
+                    font-family: Nunito;
+                    font-size: 30px;
+                    border-style: none;
+                    border-radius:15px;
+                    width: fit-content;
+                    height: 45px;
+                    text-align: center;
+                    transition: all 200ms ease-in-out;
+                    background-color:white;
+                    &:hover{
+                        background-color:rgb(71, 69, 170);  
+                        color: white;   
+                        font-size: 35px;                   
+                    }
+                }
+            }
+        }
+    }
+}
